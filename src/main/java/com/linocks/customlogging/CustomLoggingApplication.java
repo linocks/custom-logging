@@ -21,7 +21,7 @@ public class CustomLoggingApplication {
 	@GetMapping("/")
 	public String getHome(){
 		logger.info("Loading Homepage");
-		return "Welcome home";
+		return "Welcome home spring boot custom logging using logback";
 	}
 
 	@GetMapping("/about")
